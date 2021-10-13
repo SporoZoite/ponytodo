@@ -10,13 +10,13 @@
   => to find the Ponytodo List API</br>
      =>http://localhost:8000/api/ponytodos/
 
- - cd to backend file 
+ - cd to backend file </br>
 
     => `python manage.py runserver` </br>
 
     (exist with CTRL+C)
 
- - cd to frontend file 
+ - cd to frontend file </br>
     => `npm start` </br>
     => To use the React app </br>
        =>http://localhost:3000/
