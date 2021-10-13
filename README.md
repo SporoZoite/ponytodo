@@ -6,19 +6,19 @@
 
 - inside ponytodo file activate the environment
 
-  => `source bin/activate`
-  => to find the Ponytodo List API
+  => `source bin/activate` </br>
+  => to find the Ponytodo List API</br>
      =>http://localhost:8000/api/ponytodos/
 
-  - cd to backend file 
+ - cd to backend file 
 
-    => `python manage.py runserver` 
+    => `python manage.py runserver` </br>
 
     (exist with CTRL+C)
 
  - cd to frontend file 
-    => `npm start`
-    => To use the React app
+    => `npm start` </br>
+    => To use the React app </br>
        =>http://localhost:3000/
 
 
@@ -33,7 +33,7 @@
 
 
 
-   ***What to do if  Python/Django "import" is not working***
+***What to do if  Python/Django "import" is not working***
 
 - Check if you are using the good interpreter in VS Code!
 
