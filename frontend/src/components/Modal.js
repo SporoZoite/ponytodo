@@ -47,7 +47,7 @@ export default class CustomModal extends Component {
                 name="title"
                 value={this.state.activeItem.title}
                 onChange={this.handleChange}
-                placeholder="Enter Pony Todo Title"
+                placeholder="Enter Pony Title"
               />
             </FormGroup>
             <FormGroup>
@@ -58,7 +58,7 @@ export default class CustomModal extends Component {
                 name="description"
                 value={this.state.activeItem.description}
                 onChange={this.handleChange}
-                placeholder="Enter Pony Todo description"
+                placeholder="Enter description"
               />
             </FormGroup>
             <FormGroup check>
@@ -75,7 +75,7 @@ export default class CustomModal extends Component {
           </Form>
         </ModalBody>
         <ModalFooter>
-          <Button color="success" onClick={() => onSave(this.state.activeItem)}>
+          <Button color="info" onClick={() => onSave(this.state.activeItem)}>
             Save
           </Button>
         </ModalFooter>

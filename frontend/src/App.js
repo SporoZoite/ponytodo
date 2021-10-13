@@ -131,8 +131,8 @@ class App extends Component {
           Pony Todo
         </h1>
         <div className="row">
-          <div className="col-md-6 col-sm-10 mx-auto p-0">
-            <div className="card p-3">
+          <div className="col-md-6 col-sm-6 mx-auto p-0">
+            <div className="card text-dark bg-white mb-4 p-3">
               <div className="mb-4">
                 <button className="btn btn-primary" onClick={this.createItem}>
                   Add task
