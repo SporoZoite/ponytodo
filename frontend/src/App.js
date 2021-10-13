@@ -127,7 +127,9 @@ class App extends Component {
   render() {
     return (
       <main className="container">
-        <h1 className="text-black text-uppercase text-center my-4">Pony Todo</h1>
+        <h1 className="p-3 w-50 mx-auto text-light text-uppercase text-center bg-primary my-4 ">
+          Pony Todo
+        </h1>
         <div className="row">
           <div className="col-md-6 col-sm-10 mx-auto p-0">
             <div className="card p-3">
