@@ -127,12 +127,12 @@ class App extends Component {
   render() {
     return (
       <main className="container-fluid">
-        <h1 className="p-3 w-55 mx-auto text-light text-uppercase text-center bg-primary my-3">
+        <h1 className="p-3 w-55 my-3 mx-auto text-light text-uppercase text-center bg-primary ">
           Pony Todo
         </h1>
         <div className="row">
-          <div className="col-md-6 col-sm-6 col-xs-6 mx-auto p-0">
-            <div className="card text-dark bg-white mb-4 p-3">
+          <div className="col-md-6 col-sm-6 col-xs-4 mx-auto p-0">
+            <div className="card text-dark bg-white mb-4 p-3 mx-3">
               <div className="mb-4">
                 <button className="btn btn-primary" onClick={this.createItem}>
                   Add mission
