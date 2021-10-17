@@ -108,13 +108,13 @@ class App extends Component {
         </span>
         <span>
           <button
-            className="btn btn-secondary mr-2"
+            className="btn btn-secondary mr-2 mb-1 mt-1"
             onClick={() => this.editItem(item)}
           >
             Edit
           </button>
           <button
-            className="btn btn-danger"
+            className="btn btn-danger mb-1 mt-1"
             onClick={() => this.handleDelete(item)}
           >
             Delete
@@ -131,7 +131,7 @@ class App extends Component {
           Pony Todo
         </h1>
         <div className="row">
-          <div className="col-md-6 col-sm-6 col-xs-4 mx-auto p-0">
+          <div className="col-md-6 col-sm-6 col-xs-6 mx-auto p-0">
             <div className="card text-dark bg-white mb-4 p-3 mx-3">
               <div className="mb-4">
                 <button className="btn btn-primary" onClick={this.createItem}>
