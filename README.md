@@ -7,18 +7,18 @@
 - inside ponytodo file activate the environment
 
   => `source bin/activate` </br>
-  ou <br>
+  or <br>
   => `pipenv shell`</br>
   => to find the Ponytodo List API</br>
      =>http://localhost:8000/api/ponytodos/
 
- - cd to backend file </br>
+ -$cd backend </br>
 
     => `python manage.py runserver` </br>
 
     (exist with CTRL+C)
 
- - cd to frontend file </br>
+ - root </br>
     => `npm start` </br>
     => To use the React app </br>
        =>http://localhost:3000/
