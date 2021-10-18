@@ -18,13 +18,10 @@
 
     (exist with CTRL+C)
 
-<<<<<<< HEAD
  - root </br>
-=======
->>>>>>> f16adf168939c5b90cde0f5e28d3a6261043b5b4
     => `npm start` </br>
-       => To use the React app </br>
-         =>http://localhost:3000/
+    => To use the React app </br>
+       =>http://localhost:3000/
 
 
 
