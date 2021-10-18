@@ -7,6 +7,8 @@
 - inside ponytodo file activate the environment
 
   => `source bin/activate` </br>
+  ou <br>
+  => `pipenv shell`</br>
   => to find the Ponytodo List API</br>
      =>http://localhost:8000/api/ponytodos/
 
