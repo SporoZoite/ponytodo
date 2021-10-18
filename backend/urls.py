@@ -22,6 +22,6 @@ router = routers.DefaultRouter()
 router.register(r'ponytodos', views.PonytodoView, 'ponytodo')
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    path('/admin/', admin.site.urls),
+    path('/api/', include(router.urls)),
 ]
